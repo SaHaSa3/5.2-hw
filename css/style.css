@@ -1,0 +1,47 @@
+.box {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(107, 122, 168);
+    padding-left: 30px;
+    position: fixed;
+    bottom: 0;
+    left: -245px;
+    transition: left 500ms;
+
+}
+
+.box:hover {
+    left: 0;
+    .menu {
+        opacity: 0;
+    }
+    .item::before {
+        transform: rotate(405deg);
+    }
+}
+
+.link {
+    color: blue;
+    font-size: 35px;
+}
+
+.item::before {
+  content: "";  
+  width: 20px;
+  height: 20px;
+  background-color: rgb(104, 104, 255);
+  display: inline-block;
+  margin-right: 10px;
+  transform: rotate(0deg);
+  transition: transform 1000ms;
+}
+
+.menu {
+    color: rgb(80, 69, 179);
+    font-size: 50px;
+    transform: rotate(270deg);
+    position: absolute;
+    right: -25px;
+    top: 150px;
+    transition: opacity 500ms;
+}
