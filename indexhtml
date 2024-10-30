@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="box">
+        <ul class="list">
+            <li class="item"><a href="#" class="link">Html</a></li>
+            <li class="item"><a href="#" class="link">Css</a></li>
+            <li class="item"><a href="#" class="link">Java</a></li>
+            <li class="item"><a href="#" class="link">React</a></li>
+            <li class="item"><a href="#" class="link">Python</a></li>
+        </ul>
+        <h1 class="menu">Menu</h1>
+    </div>
+</body>
+</html>
